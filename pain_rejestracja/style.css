@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+
+button {
+    position: relative;
+    top: 5px;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: aqua;
+    color: white;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: rgb(23, 255, 255);
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+a:hover, a:active {
+    background-color: aqua;
+    color: white;
+    font-weight: bolder;
+}
+
